@@ -1,8 +1,8 @@
 while True:
     resp = input("Você quer saber como manter uma pessoa ingênua ocupada por horas? S/N: ")
-    if resp in ["s", "S", "sim", "SIM"]:
+    if resp == 's' or resp == 'S' or resp == 'sim' or resp == "SIM":
         continue
-    elif resp in ["n", "N", "não", "NÃO"]:
+    elif resp == 'n' or resp == 'N' or resp == 'não' or resp == 'NÃO'or resp == 'nao' or resp == 'NAO':
         print("Obrigada. Tenha um bom dia!")
         break
     else:
@@ -10,4 +10,3 @@ while True:
 
 
 
-#resp == 'S' or resp == 'SIM' or resp == 'SI' or resp == 'SM'

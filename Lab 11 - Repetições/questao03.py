@@ -5,7 +5,7 @@ while True:
     prob = random.randint(1,10)
     resp = input('Você deseja fazer uma pergunta? S/N: ')
 
-    if resp in ["n", "N", "não", "NÃO", "nao", "NAO"]:
+    if resp == 'n' or resp == 'N' or resp == 'não' or resp == 'NÃO' or resp == 'nao' or resp == 'NAO':
         break
 
     pergunta = input("Digite a sua pergunta: ")
